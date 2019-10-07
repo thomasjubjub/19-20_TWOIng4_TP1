@@ -1,0 +1,120 @@
+body
+{
+	font-family:roboto;
+	background-image: url(nodes.jpg);
+}
+
+.presentation
+ {
+ 	width: 100%;
+ }
+
+.ecole
+{
+	margin-left: 50px;
+ 	float: left;
+ 	margin-top: 10px;
+ 	overflow: hidden;
+ 	width: 30%;
+}
+
+ .ecole img
+ {
+ 	z-index: 1;
+ 	position: relative;
+ 	
+ }
+
+ .ecole span
+{	
+	position: absolute;
+	color: white;
+	width: 200px;
+	text-align: center;	
+	left: 8%;
+	font-family: roboto;
+	font-size: 25px;
+	
+	
+}
+.ecole:hover span
+{
+	z-index: 2;
+	color: #00001a;
+}
+.ecole:hover img
+{
+	opacity: 0.5;
+}
+
+.bac
+{
+	margin-left: 650px;
+	width: 28%;	
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.bac span
+{
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	left: 45%;
+	font-family: roboto;
+	font-size: 25px;
+	color: white;
+}
+
+.bac img
+{
+	z-index: 1;
+	position: relative;
+}
+
+.bac:hover span
+{
+	z-index: 2;
+	color: #00001a;
+}
+
+.bac:hover img
+{
+	opacity: 0.5;
+}
+
+.crr
+{
+	position: relative;
+	float: right;
+	margin-left: 25px;
+	width: 30%;
+	top: 0px;
+}
+
+.crr span
+{
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	right: 39%;
+	font-family: roboto;
+	font-size: 25px;
+	visibility: hidden;
+
+}
+
+.crr img
+{
+	z-index: 1;
+}
+
+.crr:hover span
+{
+	visibility: visible;
+	z-index: 2;
+}
+.crr:hover img
+{
+	opacity: 0.5;
+}

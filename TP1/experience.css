@@ -1,0 +1,131 @@
+body
+{
+	background-image: url(nodes.jpg);
+	font-family: roboto;
+}
+
+.presentation
+{
+	
+	text-align: center;
+
+}
+
+.presentation h1
+ {
+ 	font-size: 40px;
+ }
+
+ .presentation li
+ {
+ 	list-style-type: none;
+ }
+
+ .presentation ul
+{
+	column-count: 2;
+}
+
+.imageBarman
+{
+	position: relative;
+	margin-left: 150px;
+	border-radius: 80%;
+	width:20%;
+	height: 20%;
+}
+
+.imageBds
+{
+	position: relative;
+	margin-left: 450px;
+	border-radius: 80%;
+	width: 30%;
+	height: 30%;
+}
+
+.mulberry
+{
+	display: block;
+	width: 300px;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.viggo
+{
+	display: block;
+	width: 150px;
+	position: absolute;
+	top: 400px;
+	left: 475px;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.patioOpera
+{
+	display: block;
+	width: 150px;
+	position: absolute;
+	top: 550px;
+	left: 450px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.bds
+{
+	position: absolute;
+	right: 250px;
+	top: 270px;
+	width: 400px;
+	font-size: 22px;
+}
+
+.bigBen
+{
+	display: block;
+	width: 175px;
+	position: absolute;
+	top: 625px;
+	left: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.imageIngenieur
+{
+	position: relative;
+	margin-left: 450px;
+	border-radius: 80%;
+	width: 30%;
+	height: 30%;
+
+}
+
+.followMe
+{
+	display: block;
+	
+	position: absolute;
+	top: 850px;
+	left: 930px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.guitarLux
+{
+	display: block;
+	
+	position: absolute;
+	top: 880px;
+	left: 930px;
+	text-align: center;
+	font-size: 25px;
+}
